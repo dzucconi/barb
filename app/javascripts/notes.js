@@ -8,7 +8,7 @@ import * as preview from './show';
 
 const render = slide => document.body.innerHTML = `
   <div class='notes'>
-    <h1 class='notes__nav'>
+    <div class='notes__nav'>
       ${STATE.cursor + 1} of ${slides.length}
       —
       <a onclick='VEP.launch()'>
@@ -18,7 +18,7 @@ const render = slide => document.body.innerHTML = `
       <a onclick='VEP.refresh()'>
         Refresh
       </a>
-    </h1>
+    </div>
 
     <div class='note'>
       ${slide.note ? slide.note : 'No note'}

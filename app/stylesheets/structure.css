@@ -130,9 +130,7 @@
 
 .note {
   margin: 30px 0;
-  font-family: serif;
-  -webkit-font-smoothing: subpixel-antialiased;
-  font-size: 24px;
+  font-size: 150%;
   max-width: 60%;
   z-index: 2;
   background-color: rgba(0,0,0,0.5);
